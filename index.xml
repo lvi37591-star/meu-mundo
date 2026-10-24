@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10251c">
+<title>Meu Mundo — Sapos, Anime & Minecraft</title>
+<style>
+:root{--bg:#0a1511;--panel:#12251d;--green:#9cff75;--lime:#d5ff9e;--blue:#72caff;--pink:#ff8ab7;--text:#f5fff6;--muted:#bed2c4;--border:#2a4938}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#234d35 0,transparent 38%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,sans-serif}a{color:inherit}header{max-width:1100px;margin:auto;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}.logo{font-weight:1000;letter-spacing:.4px}.logo span{color:var(--green)}nav{display:flex;gap:16px;flex-wrap:wrap}nav a{text-decoration:none;color:var(--muted);font-size:14px}nav a:hover{color:var(--green)}main{max-width:1100px;margin:auto;padding:18px 20px 60px}.hero{min-height:430px;display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:26px;padding:34px 0}.eyebrow{display:inline-block;padding:7px 11px;border:1px solid #507a59;background:#142d20;border-radius:999px;color:var(--lime);font-weight:800;font-size:12px;letter-spacing:1px}.hero h1{font-size:clamp(38px,7vw,76px);line-height:.98;letter-spacing:-2px;margin:18px 0}.hero h1 span{color:var(--green)}.hero p{font-size:18px;line-height:1.65;color:var(--muted);max-width:600px}.buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}.btn{display:inline-block;padding:12px 17px;border-radius:12px;text-decoration:none;font-weight:900;background:var(--green);color:#0b1b11}.btn.alt{background:#20392b;color:var(--text);border:1px solid var(--border)}.frog-scene{min-height:300px;border-radius:28px;border:1px solid #41634b;background:linear-gradient(145deg,#294f37,#10241a 65%);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}.frog{font-size:clamp(110px,20vw,190px);filter:drop-shadow(0 15px 12px #0007);z-index:1}.bubble{position:absolute;border-radius:50%;background:#b8ff8a20;border:1px solid #b8ff8a36}.b1{width:220px;height:220px;right:-50px;top:-50px}.b2{width:150px;height:150px;left:-25px;bottom:-40px}.sticker{position:absolute;bottom:20px;right:16px;background:var(--lime);color:#17311d;border-radius:10px;padding:8px 12px;font-weight:1000;transform:rotate(-5deg)}section{margin-top:50px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:15px;margin-bottom:18px}.section-head h2{font-size:clamp(26px,4vw,38px);margin:0}.section-head p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card{background:linear-gradient(160deg,#173025,#101d17);border:1px solid var(--border);border-radius:18px;padding:18px;min-height:205px;position:relative;overflow:hidden}.card .emoji{font-size:42px}.card h3{margin:14px 0 8px;font-size:20px}.card p{color:var(--muted);line-height:1.5;margin:0;font-size:14px}.card small{display:inline-block;color:var(--green);font-weight:900;margin-top:15px;letter-spacing:.5px}.card.blue{background:linear-gradient(150deg,#132f4a,#101b25);border-color:#2c5470}.card.pink{background:linear-gradient(150deg,#45233a,#211522);border-color:#65384e}.card.gold{background:linear-gradient(150deg,#493c1e,#1e2014);border-color:#66572c}.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:18px}.aboutbox{background:var(--panel);border:1px solid var(--border);border-radius:20px;padding:22px}.aboutbox h3{margin-top:0}.aboutbox p,.aboutbox li{color:var(--muted);line-height:1.7}.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{padding:8px 11px;border-radius:999px;background:#20392b;border:1px solid #365b42;color:var(--lime);font-weight:800;font-size:13px}.series{background:linear-gradient(120deg,#163e2b,#10231a 65%);border:1px solid #3d6849;border-radius:22px;padding:25px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}.series h3{font-size:clamp(25px,4vw,38px);margin:8px 0}.series p{color:var(--muted);line-height:1.6;max-width:650px}.series .big{font-size:70px}.quote{font-size:clamp(21px,4vw,34px);font-weight:900;line-height:1.25}.quote span{color:var(--green)}footer{border-top:1px solid var(--border);padding:25px 20px;text-align:center;color:var(--muted)}footer strong{color:var(--green)}.tiny{font-size:12px;color:#8eaa98}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:20px}.frog-scene{min-height:230px}.cards{grid-template-columns:repeat(2,1fr)}.about{grid-template-columns:1fr}.series{grid-template-columns:1fr}.series .big{display:none}.section-head{align-items:start;flex-direction:column}}
+@media(max-width:460px){header{align-items:flex-start;flex-direction:column}.cards{grid-template-columns:1fr}.hero h1{letter-spacing:-1px}.card{min-height:auto}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">🐸 MEU <span>MUNDO</span></div>
+  <nav><a href="#sobre">Sobre mim</a><a href="#favoritos">Meus favoritos</a><a href="#projetos">Minhas séries</a></nav>
+</header>
+<main>
+  <section class="hero" style="margin-top:0">
+    <div>
+      <span class="eyebrow">FÃ DE SAPOS • ANIME • MINECRAFT</span>
+      <h1>Um moleque com um mundo <span>de ideias.</span></h1>
+      <p>Curto sapos, adoro Doraemon e Jujutsu Kaisen, e Minecraft sempre tem espaço na minha vida. Também gosto de inventar histórias, séries e filmes do meu próprio jeito. 🎬</p>
+      <div class="buttons"><a class="btn" href="#favoritos">Explorar meus gostos ↓</a><a class="btn alt" href="#projetos">Ver minhas criações</a></div>
+    </div>
+    <div class="frog-scene" aria-label="Ilustração decorativa de sapo">
+      <div class="bubble b1"></div><div class="bubble b2"></div>
+      <div class="frog">🐸</div><div class="sticker">SAPO SUPREMO ✨</div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="section-head"><h2>Quem sou eu?</h2><p>Meu jeito, meus gostos e minhas ideias.</p></div>
+    <div class="about">
+      <div class="aboutbox"><div style="font-size:48px">🎮 🐸 🎬</div><h3>Esse sou eu!</h3><p>Um fã de universos diferentes: posso estar vendo anime, lembrando de Doraemon, jogando Minecraft ou pensando na próxima história que quero criar.</p><div class="chips"><span class="chip">Criatividade</span><span class="chip">Games</span><span class="chip">Animes</span><span class="chip">Sapos!</span></div></div>
+      <div class="aboutbox"><h3>Meu lema</h3><div class="quote">“Sempre tem espaço para mais uma aventura… <span>e um sapo.</span>”</div><p>Este site é meu cantinho na internet para juntar minhas paixões e divulgar minhas próprias séries e filmes.</p></div>
+    </div>
+  </section>
+
+  <section id="favoritos">
+    <div class="section-head"><h2>Meus favoritos</h2><p>Quatro partes importantes do meu universo.</p></div>
+    <div class="cards">
+      <article class="card"><div class="emoji">🐸</div><h3>Sapos</h3><p>Pequenos, engraçados e simplesmente incríveis. O mascote oficial deste site!</p><small>TIME SAPO</small></article>
+      <article class="card blue"><div class="emoji">🔵🤖</div><h3>Doraemon</h3><p>Gadgets do futuro, amizade e aventuras que dão vontade de entrar na história.</p><small>BOLSO DO FUTURO</small></article>
+      <article class="card pink"><div class="emoji">👁️‍🗨️⚡</div><h3>Jujutsu Kaisen</h3><p>Energia amaldiçoada, lutas intensas e personagens marcantes.</p><small>ENERGIA AMALDIÇOADA</small></article>
+      <article class="card gold"><div class="emoji">⛏️🟩</div><h3>Minecraft</h3><p>Construir, explorar, sobreviver e transformar blocos em qualquer ideia.</p><small>MINHA AVENTURA</small></article>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <div class="section-head"><h2>Minhas criações</h2><p>Histórias que saem da imaginação.</p></div>
+    <div class="series">
+      <div><span class="eyebrow">PROJETO ORIGINAL</span><h3>🎬 Lucas Teens</h3><p>Minha série! A segunda temporada está confirmada. Este espaço pode receber notícias, pôsteres, curiosidades, teorias e novidades sobre os próximos capítulos.</p><div class="chips"><span class="chip">2ª temporada</span><span class="chip">Novidades em breve</span><span class="chip">Universo original</span></div></div>
+      <div class="big">🎥</div>
+    </div>
+    <div class="cards" style="margin-top:14px">
+      <article class="card blue"><div class="emoji">🖼️</div><h3>Pôsteres</h3><p>Artes e teasers para apresentar minhas histórias.</p></article>
+      <article class="card pink"><div class="emoji">🧩</div><h3>Teorias</h3><p>Pistas, mistérios e ideias para conversar com quem acompanha.</p></article>
+      <article class="card gold"><div class="emoji">🎞️</div><h3>Bastidores</h3><p>Processo criativo, testes e cenas em desenvolvimento.</p></article>
+      <article class="card"><div class="emoji">📣</div><h3>Novidades</h3><p>Anúncios importantes dos meus projetos.</p></article>
+    </div>
+  </section>
+
+  <section>
+    <div class="aboutbox" style="text-align:center">
+      <div style="font-size:40px">🐸 💚 🎮</div>
+      <h2 style="margin:8px 0">Bem-vindo ao meu mundo!</h2>
+      <p style="color:var(--muted);line-height:1.6">Sapos, animes, Minecraft e histórias originais. Tudo junto, do meu jeito.</p>
+      <a class="btn" href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false">Voltar ao topo ↑</a>
+    </div>
+  </section>
+</main>
+<footer>Feito com 💚, blocos e sapos. <strong>Meu Mundo</strong> · Site pessoal de fã.<div class="tiny">Doraemon, Jujutsu Kaisen e Minecraft são marcas/franquias de seus respectivos titulares. Este é um site de fã, sem afiliação oficial.</div></footer>
+</body>
+</html>
